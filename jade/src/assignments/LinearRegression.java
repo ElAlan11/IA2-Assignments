@@ -77,7 +77,7 @@ public class LinearRegression extends Agent {
       System.out.println("In Benetton");
 
 
-      int[][] dataset = {{1,2,3,4,5,6,7,8,9},{651,762,856,1063,1190,1298,1421,1440,1518},{23,26,30,34,43,48,52,57,58}};
+      int[][] dataset = {{1,2,3,4,5,6,7,8,9},{2,4,6,8,10,12,14,16,18,20},{1,2,3,4,5,6,7,8,9,10}};
       double b0=0, b1=0, yHat=0;
       //int n=0;
       
@@ -164,6 +164,9 @@ public class LinearRegression extends Agent {
       super.setVisible(true);
     }
   } 
+
+
+
 
 
 

@@ -1,2 +1,15 @@
+SLR
 javac -cp lib/jade.jar src/assignments/LinearRegression.java -d classes/
 java -cp lib/jade.jar;classes/ jade.Boot -gui lrAgent:assignments.LinearRegression
+
+MLR
+javac -cp lib/jade.jar src/assignments/MLR/*.java -d classes/
+java -cp lib/jade.jar;classes/ jade.Boot -gui mlrAgent:assignments.MLR.MultipleLinearRegression
+
+KNN
+javac -cp lib/jade.jar src/assignments/knn/*.java -d classes/
+java -cp lib/jade.jar;classes/ jade.Boot -gui knnAgent:assignments.knn.KNN
+
+ANN
+javac -cp lib/jade.jar src/assignments/ann/*.java -d classes/
+java -cp lib/jade.jar;classes/ jade.Boot -gui annAgent:assignments.ann.DeepLearning
